@@ -1,0 +1,16 @@
+.heart{
+    color: rebeccapurple;
+    font-size: 125px;
+    animation: heartbeat 1.5s infinite;
+}
+@keyframes heartbeat {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
